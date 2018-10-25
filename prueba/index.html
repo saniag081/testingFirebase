@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>firebase</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js "></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD-NCrtc-XDaOWWuAOxXbMHpdxfu_ik744",
+            authDomain: "prueba-b7f30.firebaseapp.com",
+            databaseURL: "https://prueba-b7f30.firebaseio.com",
+            projectId: "prueba-b7f30",
+            storageBucket: "prueba-b7f30.appspot.com",
+            messagingSenderId: "151840600066"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+
+<body>
+    <h4>Registro de usuarios</h4>
+    <input id="email" type="email" placeholder="Ingresa tu email">
+    <input id="password" type="password" placeholder="Ingresa contraseña">
+    <button id="buttom">Enviar</button>
+
+    <h4>Iniciar sección</h4>
+    <input id="email2" type="email" placeholder="Ingresa tu email">
+    <input id="password2" type="password" placeholder="Ingresa contraseña">
+    <button id="acceder">Acceder</button>
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
