@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>almacenamiento</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <style>
+        body{
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #uploader{
+            -webkit-appearance: none;
+            appearance: none; 
+            width: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <progress value="0" max="100" id="uploader">0%</progress>
+    <input type="file" value="upload" id="fileButttom">
+
+    <script src="javascript/app.js"></script>
+</body>
+</html>
