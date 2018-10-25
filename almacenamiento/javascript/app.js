@@ -36,11 +36,11 @@
             },
 
             function error(err) {
-
+                console.log('exitosa carga');
             },
 
             function complete() {
-
+                console.log('error');
             }
 
 
